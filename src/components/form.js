@@ -51,6 +51,7 @@ function Form() {
             data-netlify="true"
             onSubmit={handleSubmit}
           >
+            <input type="hidden" name="form-name" value="contacto" />
             <div className="input_box">
               <input
                 onChange={handleInputChangue}
