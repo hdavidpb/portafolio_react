@@ -1,0 +1,77 @@
+.info {
+	width: 100%;
+	display: flex;
+	margin-left: auto;
+	justify-content: space-between;
+	padding: 20px;
+	text-align: left;
+	margin-bottom: 10px;
+	background: url("../img/pc4.jpg") no-repeat center center/cover;
+	font-size: 30px;
+	color: rgb(2, 2, 15);
+	box-shadow: 3px 3px 3px rgb(15, 15, 15);
+	border-bottom-right-radius: 100px;
+	height: 35rem;
+}
+.info_general {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	text-shadow: 5px 5px 5px black;
+}
+.info_general p {
+	text-align: center;
+	color: white;
+	text-shadow: 0px 0px 0px black;
+}
+.hello {
+	font-size: 150px;
+}
+.info_legado {
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+
+	width: 60%;
+}
+.info_legado p {
+	text-shadow: 5px 5px 5px black;
+	text-align: center;
+	font-size: 70px;
+	color: white;
+	font-weight: bold;
+	font-weight: bold;
+	margin-bottom: 6rem;
+}
+.info h5 {
+	text-align: justify;
+	font-size: 30px;
+}
+.btn_primary {
+	display: flex;
+	width: 250px;
+	height: 70px;
+	padding: 25px;
+	border-radius: 49px;
+	font-size: 22px;
+	background: #057090b6;
+
+	justify-content: center;
+	cursor: pointer;
+	align-items: center;
+	color: white;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px black;
+	transition: all 0.3s;
+}
+.btn_primary:hover {
+	background-color: #0fc9d36c;
+	color: white;
+}

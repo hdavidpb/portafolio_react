@@ -1,0 +1,10 @@
+.derechos {
+	position: static;
+	bottom: 0;
+	padding: 25px;
+	background: rgba(128, 128, 128, 0.308);
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
